@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta>
-        <meta>
-        <title>大川令二さんのホームページ</title>
+        <meta charset="utf-8">
+        <title>大川 令二のホームページ</title>
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     </head>
     <body>
         <header>
-            <div class="header-logo">
-                <a href="index.html"><img src="images/logo.png"></a>
-                
-
-            </div>
-            <div class="header-list">
-
+            <div class="container">
+                <div class="header-left">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="images/logo.png"></a>
+                        
+                    </div>
+                    <span class="fa fa-bars menu-icon"></span>
+                    <div class="header-list">
+                        <ul>
+                            <li>Menu1</li>
+                            <li>Menu2</li>
+                            <li>Menu3</li>
+                        </ul>
+                    </div>    
+                </div>
+                <div class="header-right">
+                    <a href="#">login(表示のみ)</a> 
+                </div>
             </div>
         </header>
         <main>
+            <div class="top-wrapper">
+                <div class="container">
+                    <h1>hoge</h1>
+                    <h1>hoge</h1>
+                    <p>fuga</p>
+                    <p>fuga</p>
+                    <div class="btn-wrapper">
+                        <a href="#" class="btn sighup">  新規登録はこちら</a>
+                        <p>ir sign up with</p>
+                        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
+                        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+                    </div>
+                </div>
+
+            </div>
             <div class="contents">
                 <div class="contents-title">自己紹介
 
@@ -64,6 +91,84 @@
                     </p>
                     </div>
 
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="contents">
+                <div class ="contents-title">
+                    lesson
+                </div>
+                <div class="appeal-wrapper">
+                    <div class="container">
+                        <div class = "heading">
+                            <h2>Learn Where to Get Started!</h2>
+                        </div>
+                        <div class = "appeals">
+                            <div class="appeal">
+                                <div class="appeal-icon">
+                                    <img src="https://prog-8.com/images/html/advanced/html.png" alt="">
+                                    <p>親和性</p>
+                                </div>
+                                <p class="txt-contents">
+                                    hoge
+                                </p>
+                            </div>
+                            <div class="appeal">
+                                <div class="appeal-icon">
+                                    <img src="https://prog-8.com/images/html/advanced/jQuery.png" alt="">
+                                    <p>B</p>
+                                </div>
+                                <p class="txt-contents">
+                                    hoge
+                                </p>
+                            </div>
+                            <div class="appeal">
+                                <div class="appeal-icon">
+                                    <img src="https://prog-8.com/images/html/advanced/ruby.png" alt="">
+                                    <p>C</p>
+                                </div>
+                                <p class="txt-contents">
+                                    hoge
+                                </p>
+                            </div>
+                            <div class="appeal">
+                                <div class="appeal-icon">
+                                    <img src="https://prog-8.com/images/html/advanced/php.png" alt="">
+                                    <p>D</p>
+                                </div>
+                                <p class="txt-contents">
+                                    hoge
+                                </p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="container">
+                    <div class="message-wrapper">
+                        <div class="heading">
+                        </div>
+                        <div class="btn message" id="hoge-btn">hoge</div>
+                        <div class="hoge-count">
+                            <input type="text" name="" id="hoge">
+                        </div>
+                    </div>
+                    <div class="list-wrapper">
+                        <div class="list-left">
+                            <div class="up-btn">↑</div>
+                            <div class="down-btn">↓</div>
+                        </div>
+                        <div class="list-right">
+                            <ul class="flex-list" id="tag">
+                                <li class="li1">item1</li>
+                                <li class="li2">item2</li>
+                                <li class="li3">item3</li>
+                                <li class="li4">item4</li>
+                            </ul>
+    
+                        </div>
+    
+                    </div>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -111,8 +216,27 @@
                 <div class="clear"></div>
             </div>
 
+            <div class="contact-form">
+                <h3 class="contents-title">お問い合わせ</h3>
+
+                <p>メールアドレス(必須)</p>
+                <input type="text">
+                <p>お問い合わせ内容(必須)</p>
+                <textarea ></textarea>
+                <p>*必須項目は必ずご入力ください</p>
+                <input class="contact-submit" type="submit" value="送信">
+            </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footer-logo">
+                大川 令二
+            </div>
+            <div class="footer-list">
+                <li>Menu1</li>
+                <li>Menu2</li>
+                <li>Menu3</li>
+            </div>
+        </footer>
     <script src="script.js"></script>
     </body>
 </html>
